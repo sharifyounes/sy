@@ -23,6 +23,10 @@ def _load_app(environment="dev"):
 
     return app
 
+@app.route("/favicon.ico")
+def favicon():
+    return redirect(url_for("static", filename="images/favicon.ico"))
+
 
 if __name__ == "__main__":
     DEFAULT_PORT = 9002
