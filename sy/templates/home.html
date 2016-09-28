@@ -1,29 +1,44 @@
+<html>
+  <head></head>
 
-<h1>Sharif's page.</h1>
+  <style>
+    div.header {
+      border-bottom: 1px solid black;
+    }
+
+  </style>
+
+  <body>
+    <div class="header">
+      <h1>Sharif Younes</h1>
+    </div>
 
 
-<h2>Professional stuff.</h2>
-<ul>
-  <li><a href="{{ url_for('static', filename='pdf/sy-resume.pdf') }}">resume</a></li>
-</ul>
+    <h2>Professional</h2>
+    <ul>
+      <li><a href="{{ url_for('static', filename='pdf/sy-resume.pdf') }}">Resume</a></li>
+      <li><a href="https://github.com/sharifyounes">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/sharifyounes">LinkedIn</a></li>
 
-<h2>Math research.</h2>
-<ul>
-  <li><a href="{{ url_for('static', filename='pdf/undergrad-thesis.pdf') }}">undergrad thesis</a></li>
-  <li><a href="{{ url_for('static', filename='pdf/tree-based-language-complexity.pdf') }}">Tree-Based Language Complexity of Thompson's Group <i>F</i></a> (also on the <a href="http://arxiv.org/pdf/1501.04315v2.pdf">ArXiv</a>)</li>
-</ul>
-  
-<h2>Websites</h2>
-<ul>
-  <li><a href="http://onetrackdiet.com">diet tracking site</a></li>
-</ul>
-<h2>Other:</h2>
+    </ul>
 
-<ul>
-  <li><a href="https://github.com/sharifyounes">github</a></li>
-  <li><a href="https://www.linkedin.com/in/sharifyounes">linkedin</a></li>
-  <li><a href="http://shariflifts.blogspot.com/">old weightlifting blog (NSFW)</a></li>
-  <li><a href="https://www.youtube.com/watch?v=yUfbC_Knnms">first powerlifting meet</a></li>
-  <li><a href="https://www.youtube.com/watch?v=KFDO92rbbEc">second powerlifting meet</a></li>
-  <li><a href="https://www.youtube.com/watch?v=Kw5E51ztQPw">third powerlifting meet</a></li>  
-</ul>    
+    <h2>Math research</h2>
+    <ul>
+      <li><a href="{{ url_for('static', filename='pdf/undergrad-thesis.pdf') }}">Undergraduate Thesis</a></li>
+      <li><a href="{{ url_for('static', filename='pdf/tree-based-language-complexity.pdf') }}">Tree-Based Language Complexity of Thompson's Group <i>F</i></a> (join with Jennifer Taback), <i>Groups, Complexity, Cryoptology</i> 7 no. 2, (2015), 135-152 [<a href="http://arxiv.org/pdf/1501.04315v2.pdf">ArXiv</a>]</li>
+    </ul>
+    
+    <h2>Websites</h2>
+    <ul>
+      <li><a href="http://onetrackdiet.com">Diet Tracking</a></li>
+    </ul>
+    <h2>Unprofessional</h2>
+
+    <ul>
+      <li><a href="http://shariflifts.blogspot.com/">Old weightlifting blog (NSFW)</a></li>
+      <li><a href="https://www.youtube.com/watch?v=yUfbC_Knnms">1<sup>st</sup> powerlifting meet</a></li>
+      <li><a href="https://www.youtube.com/watch?v=KFDO92rbbEc">2<sup>nd</sup> powerlifting meet</a></li>
+      <li><a href="https://www.youtube.com/watch?v=Kw5E51ztQPw">3<sup>rd</sup> powerlifting meet</a></li>  
+    </ul>    
+  </body>
+</html>
